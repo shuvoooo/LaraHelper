@@ -5,7 +5,10 @@
     "autoload": {
         "psr-4": {
             "Shuvo\\LaraHelper\\": "src/"
-        }
+        },
+        "files": [
+            "src/helper.php"
+        ]
     },
     "authors": [
         {
