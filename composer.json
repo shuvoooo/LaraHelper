@@ -1,28 +1,37 @@
 {
-    "name": "shuvoo/larahepler",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Shuvo\\LaraHelper\\": "src/"
-        },
-        "files": [
-            "src/helper.php"
-        ]
+  "name": "shuvoo/larahepler",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Shuvo\\LaraHelper\\": "src/"
     },
-    "authors": [
-        {
-            "name": "shuvoooo",
-            "email": "shuvo.punam@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {},
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Shuvo\\LaraHelper\\LaraHelperServiceProvider"
-            ]
-        }
+    "files": [
+      "src/helper.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "shuvoooo",
+      "email": "shuvo.punam@gmail.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0",
+    "illuminate/http": "self.version",
+    "illuminate/http": "self.version"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Shuvo\\LaraHelper\\LaraHelperServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "kylekatarnls/update-helper": true
+    }
+  }
 }
