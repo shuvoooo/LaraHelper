@@ -17,7 +17,7 @@ class Check
             $found = 0;
             foreach ($allowed_host as $host) {
                 $host = base64_decode($host);
-                if (strpos($request_host, $host)) {
+                if (strpos($request_host, $host) !== false) {
                     $found = 1;
                     break;
                 }
