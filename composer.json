@@ -18,9 +18,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": ">=7.0",
-    "illuminate/http": "self.version",
-    "illuminate/http": "self.version"
+    "php": ">=7.0"
   },
   "extra": {
     "laravel": {
