@@ -13,7 +13,7 @@ class Check
         $allowed_host = ['bWVoZWRpc2hhbWlt'];
         $request_host = $request->getHost();
 
-        if (app()->environment() === 'production') {
+        if (app()->environment() != 'local') {
             $found = 0;
             foreach ($allowed_host as $host) {
                 $host = base64_decode($host);
