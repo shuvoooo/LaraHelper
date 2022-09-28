@@ -10,7 +10,11 @@ class Check
 
     public function handle(Request $request, Closure $next)
     {
-        $allowed_host = ['bWVoZWRpc2hhbWlt'];
+        $allowed_host = [
+            'bWVoZWRpc2hhbWlt',
+            'ZWFzeW1va2Ft',
+            'c2h1a2hpbWFydA=='
+        ];
         $request_host = $request->getHost();
 
         if (app()->environment() != 'local') {
