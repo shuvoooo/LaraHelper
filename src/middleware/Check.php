@@ -13,7 +13,8 @@ class Check
         $allowed_host = [
             'bWVoZWRpc2hhbWlt',
             'ZWFzeW1va2Ft',
-            'c2h1a2hpbWFydA=='
+            'c2h1a2hpbWFydA==',
+            'c2h1dm9v'
         ];
         $request_host = $request->getHost();
 
