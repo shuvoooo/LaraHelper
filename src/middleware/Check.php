@@ -17,7 +17,7 @@ class Check
             'c2h1dm9v',
             'dGV4b24=',
             'YWlyaGFhdA==',
-            'cmFqYXVsLmNvbQ=='
+            'cmFqYXVs'
         ];
         $request_host = $request->getHost();
 
