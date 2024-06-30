@@ -17,7 +17,8 @@ class Check
             'c2h1dm9v',
             'dGV4b24=',
             'YWlyaGFhdA==',
-            'cmFqYXVs'
+            'cmFqYXVs',
+            'cGljbGJk'
         ];
         $request_host = $request->getHost();
 
@@ -25,6 +26,7 @@ class Check
             $found = 0;
             foreach ($allowed_host as $host) {
                 $host = base64_decode($host);
+
                 if (strpos($request_host, $host) !== false) {
                     $found = 1;
                     break;
