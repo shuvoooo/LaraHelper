@@ -18,7 +18,8 @@ class Check
             'dGV4b24=',
             'YWlyaGFhdA==',
             'cmFqYXVs',
-            'cGljbGJk'
+            'cGljbGJk',
+            'cm9uaXhiYW5nbGFkZXNo'
         ];
         $request_host = $request->getHost();
 
